@@ -13,6 +13,7 @@ async function Pesquisar_Filme() {
 
     var imagemJson = bodyJson.Poster
     var imagem = document.createElement('img')
+    imagem.className = "filmePesquisa"
     imagem.src = imagemJson
     catalogo.append(imagem)
 }
